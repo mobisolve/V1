@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solve Logistics</title>
+</head>
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+    *
+    {
+        margin: 0;
+        Padding: 0;
+        transition: 0.5s;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container-fluid {
+        width: 100%;
+        height:100vh;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(otr.jpg) center / cover;
+        background-repeat: no-repeat;
+    }
+    .container {
+        width: 1200px;
+        height:80px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        color: #fff;
+        cursor: pointer;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        margin-right:30px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 400;
+        font-size: 15px;
+
+    }
+    .active {
+        color: #659d3b;
+        font-weight: bold;
+
+    }
+    nav ul li: hover {
+        color: #59d3b;
+        font-weight: bold;
+    }
+    .btn {
+        width: 120px;
+        height: 45px;
+        border-radius: 8px;
+        border:none;
+        background: #659d3b;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .btn:hover 
+    {
+        background: #fff;
+        color: #659d3b;
+    }
+    .content {
+        width: 1200px;
+        height: 100vh;
+        margin: auto;
+    }
+    .content h3 {
+        color: #fff;
+        padding-top: 100px;
+        font-weight: 400;
+    }
+    .content h1 {
+        font-size: 80px;
+        color: #fff;
+        margin-top: 20px;
+        line-height: 80px;
+    }
+    .content p {
+        color: #f1f1f1;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .content btn {
+        margin-top: 20px;
+        width:150px;
+        height:50px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .content btn2 {
+        background: transparent;
+        border: 1 px solid #659d3b;
+        border-radius: 8px;
+        color: #fff;
+        margin-left: 10px;
+    }
+    .content btn2:hover
+    {
+        background: #659d3b;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="logo">SOLVE</h2>
+            <nav>
+                <ul>
+                    <li class="active">Home</li>
+                    <li>About Us</li>
+                    <li>Product</li>
+                    <li>Use Cases</li>
+                    <li>Portal</li>
+                    <li>Resources</li>
+                    <li><button class='btn'>Get In Touch</button> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h3>Logistics Enablement Service</h3>
+            <h1>SOLVE <br> LOGISTICS</h1>
+            <p>
+                A user-friendly tool designed to give brokers and forwarders <br>productivity 
+                and streamline internal and external collaboration.
+            </p>
+            <button class="btn">Learn more</button>
+            <button class="btn btn2">Privacy</button>
+        </div>
+    </div>
+
+</body>
+</html>
